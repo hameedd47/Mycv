@@ -63,5 +63,27 @@ margin-bottom: 2rem;
 display: flex;
 gap: 2rem;
 
+    }
+    .profile_profileimge{
+
+max-width: 250px;
 
     }
+
+.Fname{
+color: rgb(247, 241, 239);
+font-weight: 200 ;
+text-transform: uppercase;
+display: block;
+
+    }
+
+    .Lname{
+        color: rgb(206, 2, 2);
+        font-weight: 200 ;
+        font-size: clamp(2.5rem , 15vm , 7rem);
+        text-transform: uppercase;
+        display: block;
+
+    }
+    
