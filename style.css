@@ -42,3 +42,26 @@ background: #070707;
 grid-template-columns: 1fr 1fr;
 gap: 4rem;
     }
+
+    @media only screen and (max-width:768px ){
+        .container {
+         width: 100%;
+         grid-template-columns: 1fr;
+         padding: 3rem;
+         gap: 7rem;
+
+        } 
+    } 
+
+    .profile{
+grid-column: 1 / -1 ;
+margin-bottom: 2rem;
+    }
+
+    .profile_container{
+
+display: flex;
+gap: 2rem;
+
+
+    }
