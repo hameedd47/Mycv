@@ -8,8 +8,16 @@ box-sizing: border-box;
 }
 :root{
 
-    --primary-color: #ff7613
-    --text-color: #727171
+    --primary-color: #FFFFFF;
+    --text-color: #231F1F;
+}
+
+
+.drak-them{
+
+    --primary-color: #231F1F;
+    --text-color: #FFFFFF;
+
 }
 
 html{
@@ -19,8 +27,8 @@ html{
 body{
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
-    color: white;}
+    background-color:var(--primary-color);
+    color:var( --text-color);}
     img{
 
         width: 100%;
@@ -29,7 +37,7 @@ body{
     a{
 
         text-decoration: none;
-        color: white;
+        color: var(--text-color);
     }
 
     .container{
@@ -38,7 +46,7 @@ width: 90%;
 margin: 0 auto;
 display: grid;
 padding: 5rem;
-background: #070707;
+background: var(--primary-color);
 grid-template-columns: 1fr 1fr;
 gap: 4rem;
     }
@@ -71,19 +79,98 @@ max-width: 250px;
     }
 
 .Fname{
-color: rgb(247, 241, 239);
+color: var(--text-color);
 font-weight: 200 ;
-text-transform: uppercase;
+
 display: block;
 
     }
 
     .Lname{
         color: rgb(206, 2, 2);
-        font-weight: 200 ;
-        font-size: clamp(2.5rem , 15vm , 7rem);
-        text-transform: uppercase;
+        font-weight: 700 ;
+        font-size: larger;
+     
         display: block;
 
     }
+    @media only screen and (max-width: 768px){
+.profile_container{
+
+flex-direction: column;
+
+}
+
+    }
+
+    .skill_list{
+
+        margin-top: 1rem;
+        margin-left: 2rem;
+        line-height: 2;
+    }
     
+    .title{
+        color: var(--primary-color);
+        font-weight: 700;
+        font-size: 2rem ;
+        color: rgb(255, 209, 2);
+        text-transform: uppercase;
+        margin-top: 1rem;
+          
+    }
+
+    .profile_title{
+
+        margin-top: 1rem;
+
+    }
+#idd{
+
+    width: 30px;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+
+.int{
+
+    margin-top: 4rem;   
+}
+
+.int_items{
+
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+
+.int_item{
+
+    font-size: 1.8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.EMILL{
+
+
+    color: rgb(247, 241, 239);
+    font-weight: 200 ;
+    
+    display: block;
+    gap: 2rem ;
+
+}
+
+ 
+#ic{
+
+    width: 30px;
+    cursor: pointer;
+}
