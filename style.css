@@ -115,7 +115,11 @@ flex-direction: column;
         font-weight: 700;
         font-size: 2rem ;
         color: rgb(255, 209, 2);
+<<<<<<< HEAD
         text-transform: uppercase;
+=======
+
+>>>>>>> 778b5906917182d1e9aeb6a96b12f656eff3cd12
         margin-top: 1rem;
           
     }
@@ -132,6 +136,7 @@ flex-direction: column;
     margin-left: 3rem;
 }
 
+<<<<<<< HEAD
 .int{
 
     margin-top: 4rem;   
@@ -174,3 +179,7 @@ flex-direction: column;
     width: 30px;
     cursor: pointer;
 }
+=======
+
+      
+>>>>>>> 778b5906917182d1e9aeb6a96b12f656eff3cd12
