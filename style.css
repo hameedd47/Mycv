@@ -80,10 +80,49 @@ display: block;
 
     .Lname{
         color: rgb(206, 2, 2);
-        font-weight: 200 ;
-        font-size: clamp(2.5rem , 15vm , 7rem);
-        text-transform: uppercase;
+        font-weight: 700 ;
+        font-size: larger;
+     
         display: block;
 
     }
+    @media only screen and (max-width: 768px){
+.profile_container{
+
+flex-direction: column;
+
+}
+
+    }
+
+    .skill_list{
+
+        margin-top: 1rem;
+        margin-left: 2rem;
+        line-height: 2;
+    }
     
+    .title{
+        color: var(--primary-color);
+        font-weight: 700;
+        font-size: 2rem ;
+        color: rgb(255, 209, 2);
+
+        margin-top: 1rem;
+          
+    }
+
+    .profile_title{
+
+        margin-top: 1rem;
+
+    }
+#idd{
+
+    width: 30px;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+
+
+      
